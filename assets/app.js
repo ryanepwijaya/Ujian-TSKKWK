@@ -58,6 +58,8 @@
     key: '<circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M17 6l3 3M14 9l2 2"/>',
     copy: '<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/>',
     upload: '<path d="M12 16V4M7 9l5-5 5 5M4 16v4h16v-4"/>',
+    chevD: '<path d="m6 9 6 6 6-6"/>',
+    filter: '<path d="M4 5h16l-6 8v5l-4 2v-7z"/>',
     calendar: '<rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
     fire: '<path d="M12 3c1 3 4 5 4 9a4 4 0 0 1-8 0c0-2 1-3 1-3s.5 2 2 2c0-3-1-5 1-8z"/>'
   };
@@ -312,35 +314,30 @@
     const word = ["Siap", "hadapi", '<em class="accentw">TSKKWK.</em>'];
     const exam = (() => { const now = new Date(), d0 = new Date(2026, 10, 16), d1 = new Date(2026, 10, 20); if (now >= d1) return ""; if (now >= d0) return "Ujian sedang berlangsung"; const n = Math.ceil((d0 - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 864e5); return "H-" + n; })();
     const pAll = pct(read, TOTAL_CH);
-    const tiles = [["books", BOOKS.length, "modul"], ["list", TOTAL_CH, "bab materi"], ["target", QS.length, "latihan soal"]];
-    return '<div class="view"><div class="wrap"><section class="hero"><div>' +
+    const caseN = QS.filter((q) => q.t === "K" || q.t === "A").length;
+    return '<div class="view"><div class="wrap"><section class="hero hero3"><div>' +
       '<span class="eyebrow">UPKP IV, V &amp; VI · 2026</span>' +
       '<h1 style="margin-top:10px">' + word.map((w, i) => '<span class="stack"><span style="animation-delay:' + (i * 70) + 'ms">' + w + "</span></span>").join(" ") + "</h1>" +
       '<p class="hsub">Tes Substansi Kementerian Keuangan<br>dan Wawasan Kebangsaan</p>' +
       '<div class="hexam"><span class="hx-d">' + ic("calendar") + "16–19 Nov 2026</span>" + (exam ? '<span class="hx-c">' + exam + "</span>" : "") + '<span class="hx-n">TSKKWK 60 menit · materi TPA dipelajari terpisah</span></div>' +
-      '<div class="htiles">' + tiles.map((t, i) => '<div class="htile" style="animation-delay:' + (300 + i * 90) + 'ms"><span class="hti">' + ic(t[0]) + "</span><b>" + t[1] + "</b><span>" + t[2] + "</span></div>").join("") + "</div>" +
       '<label class="hero-search" for="heroQ">' + ic("search") + '<input id="heroQ" type="search" autocomplete="off" placeholder="Cari istilah atau peraturan…" /><button class="btn primary sm" type="button" data-act="search-hero">Cari</button></label>' +
       '<div class="chips" aria-label="Rekomendasi pencarian">' + recs.slice(0, 6).map((r) => '<button class="chip" type="button" data-act="search" data-q="' + esc(r) + '">' + esc(r) + "</button>").join("") + "</div>" +
+      '<section class="drillband" aria-labelledby="drillT"><div class="db-l"><span class="eyebrow">Mode drilling</span><h2 id="drillT">Langsung latihan soal</h2><p>' + QS.length + " soal acak berpembahasan, termasuk " + caseN + ' soal kasus. Salah jawab? Ada tombol untuk cek materinya.</p>' +
+      '<div class="db-stats"><div><b>' + st.att + "</b><span>soal dijawab</span></div><div><b>" + (st.att ? acc + "%" : "–") + "</b><span>akurasi</span></div><div><b>" + st.wrong + "</b><span>perlu diulang</span></div></div></div>" +
+      '<div class="db-r"><button class="dbtn main" type="button" data-act="preset" data-p="kilat">' + ic("shuffle") + "<span><b>Drill kilat</b><small>20 soal acak dari semua modul</small></span>" + ic("arrowR") + "</button>" +
+      '<div class="dgrid"><button class="dbtn" type="button" data-act="preset" data-p="simulasi">' + ic("target") + "<span><b>Simulasi 100 soal</b><small>20 per modul</small></span></button>" +
+      '<button class="dbtn" type="button" data-act="preset" data-p="kasus">' + ic("case") + "<span><b>Soal kasus</b><small>" + caseN + " soal cerita</small></span></button>" +
+      '<button class="dbtn" type="button" data-act="preset" data-p="salah">' + ic("repeat") + "<span><b>Ulang yang salah</b><small>" + st.wrong + " soal</small></span></button>" +
+      '<a class="dbtn" href="#latihan">' + ic("filter") + "<span><b>Atur sendiri</b><small>pilih modul, bab, tipe</small></span></a></div>" +
+      '<div class="dbooks"><span>Drill per modul</span>' + BOOKS.map((b) => '<button class="dchip" type="button" data-act="preset" data-p="b:' + b.id + '" style="--book:' + b.color + '">' + esc(b.short) + "</button>").join("") + "</div></div></section>" +
       (last ? '<a class="continue" href="#bab-' + last.book.id + "-" + last.id + '" style="--book:' + last.book.color + '"><span class="bico">' + ic(last.book.icon) + '</span><div><span>Lanjut membaca · ' + esc(last.book.short) + "</span><b>" + esc(last.title) + "</b></div>" + ic("arrowR") + "</a>" : "") +
       "</div>" +
-      '<aside class="howto" aria-label="Cara belajar"><div class="sa-head"><span class="eyebrow">Cara belajar</span><span class="hpct">Progres <b>' + pAll + '%</b></span></div>' +
-      '<div class="howbar" aria-hidden="true"><i data-w="' + pAll + '"></i></div>' +
-      '<ol class="flow">' + [["books", "Baca bab", "Bagian penting sudah ditandai"], ["eye", "Mode hafal", "Tutup butir, tebak, buka"], ["target", "Latihan soal", "Salah? Ketuk Cek materi"], ["key", "Simpan progres", "Salin kode, pindah perangkat"]].map((f, i) => '<li style="animation-delay:' + (200 + i * 90) + 'ms"><span class="fn">' + (i + 1) + '</span><span class="fi">' + ic(f[0]) + "</span><b>" + f[1] + "</b><small>" + f[2] + "</small></li>").join("") + "</ol>" +
-      '<div class="sa-stats">' +
-      '<div><span>' + ic("check") + "Bab dibaca</span><b>" + read + "/" + TOTAL_CH + "</b></div>" +
-      '<div><span>' + ic("target") + "Soal dijawab</span><b>" + st.att + "</b></div>" +
-      '<div><span>' + ic("star") + "Akurasi</span><b>" + (st.att ? acc + "%" : "–") + "</b></div>" +
-      '<div><span>' + ic("repeat") + "Perlu diulang</span><b>" + st.wrong + "</b></div></div>" +
-      '<button class="btn primary sync-cta" type="button" data-act="sync">' + ic("key") + "Simpan / pulihkan progres</button></aside></section>" +
-      '<div class="sec-title"><h2>Rak buku</h2><span class="eyebrow">' + TOTAL_CH + " bab · " + QS.length + " soal</span></div>" +
-      '<div class="shelf">' + BOOKS.map((b, i) => {
-        const r = bookRead(b); const bq = qStats((q) => q.b === b.id);
-        return '<a class="bookcard" href="#buku-' + b.id + '" style="--book:' + b.color + ";animation-delay:" + (i * 60) + 'ms"><span class="no">BUKU ' + b.no + '</span><span class="bico">' + ic(b.icon) + "</span><h3>" + esc(b.title) + "</h3><p>" + esc(b.desc) + '</p><div class="meta"><div style="display:flex;justify-content:space-between"><span>' + r + "/" + b.chapters.length + " bab</span><span>" + bq.total + ' soal</span></div><div class="bar"><i data-w="' + pct(r, b.chapters.length) + '"></i></div></div></a>';
-      }).join("") + "</div>" +
-      '<div class="sec-title"><h2>Latihan soal</h2><a class="btn sm" href="#latihan">Atur latihan ' + ic("arrowR") + "</a></div>" +
-      '<div class="quickrow"><button class="qcard feature" type="button" data-act="preset" data-p="kilat"><span class="eyebrow">Drill kilat</span><h3>20 soal acak dari semua buku</h3><p>Campuran hafalan, pemahaman, kasus, dan analisis.</p><span class="btn primary sm" style="align-self:flex-start;margin-top:auto">' + ic("shuffle") + "Mulai</span></button>" +
-      '<button class="qcard" type="button" data-act="preset" data-p="salah"><span class="eyebrow">Ulang yang salah</span><span class="big">' + st.wrong + "</span><p>Soal yang terakhir kamu jawab salah.</p></button>" +
-      '<button class="qcard" type="button" data-act="preset" data-p="simulasi"><span class="eyebrow">Simulasi ujian</span><span class="big">100</span><p>20 soal per buku, urutan acak.</p></button></div>' +
+      '<aside class="modlist" aria-label="Lima modul"><div class="ml-head"><span class="eyebrow">Lima modul materi</span><span class="hpct">Dibaca <b>' + pAll + "%</b></span></div>" +
+      '<div class="ml-rows">' + BOOKS.map((b, i) => { const r = bookRead(b), n = b.chapters.length, bq = qStats((q) => q.b === b.id); return '<a class="mrow" href="#buku-' + b.id + '" style="--book:' + b.color + ";animation-delay:" + (120 + i * 60) + 'ms"><span class="bico">' + ic(b.icon) + '</span><span class="mr-t"><b>' + esc(b.title) + "</b><small>" + r + "/" + n + " bab · " + bq.total + ' soal</small><span class="bar"><i data-w="' + pct(r, n) + '"></i></span></span>' + ic("arrowR") + "</a>"; }).join("") + "</div>" +
+      '<details class="savehint"><summary>' + ic("key") + '<span>Progres tersimpan otomatis. <u>Pindah perangkat?</u></span>' + ic("chevD") + "</summary>" +
+      '<div class="sh-body"><ol><li><b>Salin kode</b> di perangkat lama</li><li><b>Simpan</b> kodenya (catatan / chat ke diri sendiri)</li><li><b>Tempel &amp; pulihkan</b> di perangkat baru</li></ol><p>Progres hilang jika memakai mode incognito, menghapus data browser, atau ganti perangkat tanpa kode.</p><button class="btn sm primary" type="button" data-act="sync">' + ic("key") + "Buka kode progres</button></div></details>" +
+      "</aside></section>" +
+      
       footer() + "</div></div>";
   }
 
@@ -694,6 +691,8 @@
         const p = t.dataset.p;
         if (p === "kilat") startQuiz(shuffle(QS).slice(0, 20), "Drill kilat 20 soal");
         else if (p === "simulasi") startQuiz(sampleBalanced(100), "Simulasi ujian 100 soal");
+        else if (p === "kasus") { const k = QS.filter((q) => q.t === "K" || q.t === "A"); startQuiz(shuffle(k).slice(0, 20), "Drill soal kasus"); }
+        else if (p.indexOf("b:") === 0) { const bk = BMAP[p.slice(2)]; startQuiz(shuffle(QS.filter((q) => q.b === bk.id)).slice(0, 20), "Drill " + bk.short); }
         else if (p === "salah") { const w = QS.filter((q) => S.qs[q.id] && !S.qs[q.id].l); if (!w.length) toast("Belum ada soal yang salah. Kerjakan latihan dulu, ya."); else startQuiz(shuffle(w).slice(0, 50), "Ulang yang salah"); }
         break;
       }
