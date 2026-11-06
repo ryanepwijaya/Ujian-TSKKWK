@@ -560,3 +560,13 @@ input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none;appea
 .mnote{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;font-size:.8rem;color:var(--muted);background:var(--surface-2);border-radius:14px;padding:12px}
 .mnote p{margin:0}.mnote svg{width:18px;height:18px;color:var(--warn)}
 @media (max-width:480px){.msteps small{display:none}}
+
+.accentw{font-style:normal;background:linear-gradient(90deg,#6E9C80,#6F8FBF 30%,#C09A5B 55%,#8E83BE 78%,#C98585);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hsub{margin:10px 0 0;font-size:clamp(1.02rem,1.6vw,1.2rem);font-weight:500;color:var(--muted);line-height:1.45}
+.hsub b{color:var(--ink);font-weight:800}
+.hexam{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:14px}
+.hexam > span{display:inline-flex;align-items:center;gap:6px;font-size:.82rem;border-radius:99px;padding:6px 12px}
+.hx-d{background:var(--ink);color:var(--bg);font-weight:600}
+.hx-d svg{width:15px;height:15px}
+.hx-c{background:color-mix(in srgb,var(--warn) 18%,var(--surface));color:color-mix(in srgb,var(--warn) 70%,var(--ink));font:700 .82rem/1 var(--font-mono);letter-spacing:.04em}
+.hx-n{color:var(--muted);padding-inline:4px!important}

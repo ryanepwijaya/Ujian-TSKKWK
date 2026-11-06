@@ -58,6 +58,7 @@
     key: '<circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M17 6l3 3M14 9l2 2"/>',
     copy: '<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/>',
     upload: '<path d="M12 16V4M7 9l5-5 5 5M4 16v4h16v-4"/>',
+    calendar: '<rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
     fire: '<path d="M12 3c1 3 4 5 4 9a4 4 0 0 1-8 0c0-2 1-3 1-3s.5 2 2 2c0-3-1-5 1-8z"/>'
   };
   const ic = (n, cls) => '<svg class="' + (cls || "icon") + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (P[n] || "") + "</svg>";
@@ -308,12 +309,15 @@
     const st = qStats(); const read = Object.keys(S.read).length; const acc = pct(st.ok, st.att);
     const last = S.last && BMAP[S.last.b] && BMAP[S.last.b].cmap[S.last.c] ? BMAP[S.last.b].cmap[S.last.c] : null;
     const recs = ["BerAKHLAK", "Majelis Kode Etik", "PMK 190/PMK.01/2018", "asas universalitas", "Piagam Jakarta", "cuti besar", "hukuman disiplin sedang", "5 Must", "Mahkamah Konstitusi", "DUK"];
-    const word = ["Lima", "buku", "untuk", "lulus", "UPKP."];
+    const word = ["Siap", "hadapi", '<em class="accentw">TSKKWK.</em>'];
+    const exam = (() => { const now = new Date(), d0 = new Date(2026, 10, 16), d1 = new Date(2026, 10, 20); if (now >= d1) return ""; if (now >= d0) return "Ujian sedang berlangsung"; const n = Math.ceil((d0 - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 864e5); return "H-" + n; })();
     const pAll = pct(read, TOTAL_CH);
-    const tiles = [["books", BOOKS.length, "buku"], ["list", TOTAL_CH, "bab materi"], ["target", QS.length, "latihan soal"]];
+    const tiles = [["books", BOOKS.length, "modul"], ["list", TOTAL_CH, "bab materi"], ["target", QS.length, "latihan soal"]];
     return '<div class="view"><div class="wrap"><section class="hero"><div>' +
-      '<span class="eyebrow">Tes Substansi Kemenkeu &amp; Wawasan Kebangsaan</span>' +
+      '<span class="eyebrow">UPKP IV, V &amp; VI · 2026</span>' +
       '<h1 style="margin-top:10px">' + word.map((w, i) => '<span class="stack"><span style="animation-delay:' + (i * 70) + 'ms">' + w + "</span></span>").join(" ") + "</h1>" +
+      '<p class="hsub">Tes Substansi Kementerian Keuangan<br>dan Wawasan Kebangsaan</p>' +
+      '<div class="hexam"><span class="hx-d">' + ic("calendar") + "16–19 Nov 2026</span>" + (exam ? '<span class="hx-c">' + exam + "</span>" : "") + '<span class="hx-n">TSKKWK 60 menit · materi TPA dipelajari terpisah</span></div>' +
       '<div class="htiles">' + tiles.map((t, i) => '<div class="htile" style="animation-delay:' + (300 + i * 90) + 'ms"><span class="hti">' + ic(t[0]) + "</span><b>" + t[1] + "</b><span>" + t[2] + "</span></div>").join("") + "</div>" +
       '<label class="hero-search" for="heroQ">' + ic("search") + '<input id="heroQ" type="search" autocomplete="off" placeholder="Cari istilah atau peraturan…" /><button class="btn primary sm" type="button" data-act="search-hero">Cari</button></label>' +
       '<div class="chips" aria-label="Rekomendasi pencarian">' + recs.slice(0, 6).map((r) => '<button class="chip" type="button" data-act="search" data-q="' + esc(r) + '">' + esc(r) + "</button>").join("") + "</div>" +
@@ -774,7 +778,7 @@
   function shell() {
     const marks = BOOKS.map((b, i) => '<i style="background:' + b.color + ";height:" + [14, 20, 24, 17, 21][i] + 'px"></i>').join("");
     document.body.insertAdjacentHTML("afterbegin",
-      '<header class="topbar"><div class="topbar-in"><a class="brand" href="#beranda" aria-label="Lima Buku UPKP, beranda"><span class="brand-mark">' + marks + '</span><span>Lima Buku<small>UPKP · Kemenkeu</small></span></a>' +
+      '<header class="topbar"><div class="topbar-in"><a class="brand" href="#beranda" aria-label="Lima Buku TSKKWK, beranda"><span class="brand-mark">' + marks + '</span><span>Lima Buku<small>TSKKWK · UPKP</small></span></a>' +
       '<nav class="topnav" aria-label="Navigasi utama"><a href="#beranda" data-nav="beranda">Beranda</a><a href="#buku-' + BOOKS[0].id + '" data-nav="buku">Buku</a><a href="#latihan" data-nav="latihan">Latihan soal</a></nav>' +
       '<button class="searchbtn" type="button" data-act="search">' + ic("search") + "Cari materi atau soal<kbd>Ctrl K</kbd></button>" +
       '<span class="top-spacer"></span><button class="iconbtn" type="button" data-act="search" aria-label="Cari" style="display:none" id="mSearch">' + ic("search") + '</button><button class="iconbtn" type="button" data-act="sync" aria-label="Simpan atau pulihkan progres" title="Simpan / pulihkan progres">' + ic("key") + '</button><button class="iconbtn" type="button" id="themeBtn" data-act="theme"></button></div><div class="readbar" id="readbar"></div></header>' +
