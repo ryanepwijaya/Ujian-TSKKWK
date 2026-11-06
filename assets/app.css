@@ -631,3 +631,17 @@ input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none;appea
 .hero3 .db-stats b{font-size:1.35rem}
 .hero3 .continue{margin-top:14px}
 @media (max-width:560px){.hero3 .db-l{grid-template-columns:1fr}.hero3 .db-stats{grid-column:1;grid-row:auto;margin-top:10px}}
+
+/* daftar modul memanjang sejajar kolom kiri */
+.hero3{align-items:stretch}
+.hero3 > div:first-child{padding-block:12px}
+.modlist{display:flex;flex-direction:column}
+.ml-rows{flex:1;display:flex;flex-direction:column;gap:10px}
+.mrow{flex:1;align-items:center;padding:12px 14px}
+.mrow .bico{width:44px;height:44px;border-radius:13px}
+.mrow .bico svg{width:21px;height:21px}
+.mr-t{gap:4px}
+.mr-t b{font-size:1rem}
+.mr-d{font-size:.78rem;line-height:1.4;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mr-t .bar{margin-top:2px}
+@media (max-width:900px){.mr-d{display:none}}
