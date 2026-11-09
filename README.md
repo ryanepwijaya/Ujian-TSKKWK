@@ -1,6 +1,6 @@
 # Lima Buku UPKP
 
-Web belajar mandiri untuk UPKP Kementerian Keuangan: 5 buku (Etika PNS, Nilai-Nilai Kemenkeu, Pengelolaan Keuangan Negara, Tata Aturan Kepegawaian, Wawasan Kebangsaan), 47 bab materi dengan mode hafalan & kartu balik, 783 latihan soal acak berpembahasan (termasuk soal kasus panjang), pencarian kata kunci, dan pelacak progres.
+Web belajar mandiri untuk UPKP Kementerian Keuangan: 5 buku (Etika PNS, Nilai-Nilai Kemenkeu, Pengelolaan Keuangan Negara, Tata Aturan Kepegawaian, Wawasan Kebangsaan), 47 bab materi dengan mode hafalan & kartu balik, 790 latihan soal acak berpembahasan (termasuk soal kasus panjang), pencarian kata kunci, dan pelacak progres.
 
 Situs statis murni (HTML + CSS + JS tanpa build step).
 

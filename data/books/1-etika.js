@@ -257,7 +257,7 @@ Kedua, pelaksanaannya harus **diawasi terus-menerus**. Setiap kasus pelanggaran 
 :::
 
 ## Organisasi profesi jabatan fungsional
-Bagaimana kode etik profesi dibentuk dalam praktik? **PP 11/2017 tentang Manajemen PNS, Paragraf 15, Pasal 101** mengaturnya secara konkret untuk jabatan fungsional (JF).
+Bagaimana kode etik profesi dibentuk dalam praktik? **Pasal 101 PP 11/2017 tentang Manajemen PNS sebagaimana telah diubah dengan PP 17/2020** mengaturnya secara konkret untuk jabatan fungsional (JF).
 
 ::: steps
 Setiap **JF yang telah ditetapkan wajib memiliki 1 (satu) organisasi profesi JF**.
@@ -275,14 +275,14 @@ Organisasi profesi itu kemudian memikul tiga tugas yang menunjukkan bahwa ia buk
 
 > [!tips] Perhatikan kata **rekomendasi**. Organisasi profesi memeriksa dan merekomendasikan, bukan menjatuhkan hukuman disiplin. Hukuman disiplin tetap ranah pejabat yang berwenang berdasarkan PP 94/2021.
 
-> [!ingat] PP 11/2017 telah diubah dengan **PP 17/2020**, **tetapi Pasal 101 tidak mengalami perubahan**.
+> [!ingat] Sebut lengkap dasar hukumnya: **PP 11/2017 sebagaimana telah diubah dengan PP 17/2020**, **Pasal 101** tentang Organisasi Profesi.
 
 > [!kasus] Sebuah JF ditetapkan tahun 2022. Paling lambat tahun **2027** JF tersebut harus sudah memiliki satu organisasi profesi, dan organisasi itu wajib menyusun kode etik profesinya dengan persetujuan pimpinan instansi pembina.
 
 ## Rangkuman
 - Dua kode etik turunan: **instansi** (ditetapkan **PPK**) dan **profesi** (ditetapkan **organisasi profesi**).
 - Dua syarat mutlak: **dibuat oleh profesinya** dan **diawasi terus-menerus**.
-- Pasal 101 PP 11/2017: **1 JF = 1 organisasi profesi**, paling lama **5 tahun**; tugasnya menyusun kode etik, advokasi, memeriksa & merekomendasikan.
+- Pasal 101 PP 11/2017 jo. PP 17/2020: **1 JF = 1 organisasi profesi**, paling lama **5 tahun**; tugasnya menyusun kode etik, advokasi, memeriksa & merekomendasikan.
 `
 },
 {
@@ -382,7 +382,7 @@ Surat edaran ini berisi **himbauan penerapan nilai dasar ASN** dalam penyelengga
 ::: steps
 Setiap pegawai **wajib memegang teguh ideologi Pancasila** serta **setia dan mempertahankan UUD 1945** dan pemerintahan yang sah.
 Seluruh **pimpinan unit** wajib melakukan **pembinaan dan pengawasan** penerapan nilai dasar ASN.
-Bila ada **indikasi penyelewengan**, pimpinan unit dan/atau **atasan langsung** wajib mengambil tindakan sesuai ketentuan.
+Bila ada **indikasi penyelewengan**, pimpinan unit organisasi dan/atau **atasan langsung** wajib **menindaklanjuti indikasi penyimpangan** tersebut **sesuai hukum yang berlaku**.
 :::
 
 ## SE-12/MK.01/2019: Pancasila dan bela negara
@@ -415,11 +415,11 @@ Landasan perilaku pegawai Kemenkeu ada dua lapis: **nilai dasar ASN** (Pasal 3 U
 ### Kode perilaku per nilai
 PMK 190/2018 membangun kode etik di atas kelima nilai tersebut. Cara efektif mengingatnya adalah memahami "tema" setiap nilai, lalu mencocokkan butirnya.
 
-**Integritas** bertema *menjaga citra diri dan lembaga*: menjaga citra, harkat, dan martabat Kemenkeu di forum formal maupun informal, di dalam maupun luar negeri; menjunjung norma masyarakat dan kode etik profesi; memegang teguh sumpah jabatan; **menghindari konflik kepentingan**; **bersikap netral dalam Pilpres, Pilkada, dan Pileg**; **menggunakan media sosial dengan bijak**; berbicara dan bertindak jujur sesuai fakta; serta menjadi teladan dan menegakkan kode etik.
+**Integritas** bertema *menjaga citra diri dan lembaga*, dan daftarnya paling panjang (16 butir). Bagian pertama berisi kewajiban: menjaga citra, harkat, dan martabat Kemenkeu di forum formal maupun informal, di dalam maupun luar negeri; menjunjung norma masyarakat dan kode etik profesi; memegang teguh sumpah jabatan; **menghindari konflik kepentingan**; **bersikap netral dalam Pilpres, Pilkada, dan Pileg**; **menggunakan media sosial dengan bijak**; berbicara dan bertindak jujur sesuai fakta; menjadi teladan dan menegakkan kode etik; serta **mengajukan izin setiap akan bepergian ke luar negeri untuk kepentingan pribadi**. Bagian kedua berisi larangan: **tidak menemui pihak yang berpotensi menimbulkan konflik kepentingan** (kecuali karena penugasan); **tidak sewenang-wenang, merundung (bullying), atau melecehkan** pegawai/pihak lain; tidak melanggar norma kesopanan dan kesusilaan yang menurunkan citra; **tidak memasuki tempat yang tidak pantas** seperti tempat prostitusi dan perjudian (kecuali karena penugasan); **tidak menunjukkan gaya hidup hedonisme** sebagai bentuk empati; tidak dengan sengaja bersikap tidak sesuai identitas seksual dan gender; dan tidak dengan sengaja mengarah pada tindakan melanggar kesusilaan.
 
-**Profesionalisme** bertema *cara bekerja*: mengutamakan kepentingan bangsa dan organisasi di atas pribadi; **bekerja sesuai SOP** dan kewenangan; menuntaskan tugas secara bertanggung jawab; **menyusun rencana/sasaran kinerja**; mengoptimalkan kompetensi; **menjaga informasi dan data rahasia Kemenkeu**; **disiplin memanfaatkan waktu kerja**; dan **berani mengakui kesalahan**.
+**Profesionalisme** bertema *cara bekerja dan penampilan kerja* (16 butir): mengutamakan kepentingan bangsa dan organisasi di atas pribadi; **bekerja sesuai SOP** dan kewenangan; menuntaskan tugas secara bertanggung jawab; **menyusun rencana/sasaran kinerja**; mengoptimalkan kompetensi; **menjaga informasi dan data rahasia Kemenkeu**; **disiplin memanfaatkan waktu kerja**; **berani mengakui kesalahan**; bersikap dan bertutur kata sopan; **mengindahkan etika berkomunikasi** (bercakap, bertelepon, menerima tamu, surat-menyurat termasuk email); menjaga kebersihan dan kenyamanan ruang kerja, termasuk **tidak merokok di luar area merokok**; berpenampilan, berpakaian, dan bersepatu kerja sesuai ketentuan; **tidak menyalahgunakan tanda pengenal (nametag)**; **tidak merespons kritik dan saran secara negatif berlebihan**; **tidak memakai tindik** (kecuali di daun telinga bagi pegawai perempuan atau karena alasan keagamaan); dan **tidak bertato di bagian tubuh yang terbuka**.
 
-**Sinergi** bertema *hubungan dan perbedaan*: mengakui persamaan derajat dan bertenggang rasa; menghormati perbedaan latar belakang, ras, warna kulit, agama, asal-usul, jenis kelamin, status pernikahan, umur, atau kecacatan; tidak memecah belah persatuan; kooperatif dengan unit lain; menghargai masukan; menjaga komitmen keputusan bersama; **berbagi solusi, informasi, dan/atau data sesuai kewenangan**; serta **memberi kesempatan beribadah ketika rapat atau tugas kedinasan berlangsung**.
+**Sinergi** bertema *hubungan dan perbedaan* (10 butir): mengakui persamaan derajat dan bertenggang rasa; menghormati perbedaan latar belakang, ras, warna kulit, agama, asal-usul, jenis kelamin, status pernikahan, umur, atau kecacatan; tidak memecah belah persatuan; kooperatif dengan unit lain; menghargai masukan; menjaga komitmen keputusan bersama; **bersedia berbagi solusi, informasi, dan/atau data sesuai kewenangan**; **memberi kesempatan beribadah ketika rapat atau tugas kedinasan berlangsung**; **melaksanakan kegiatan terkait tugas/jabatan dengan izin atau sepengetahuan atasan**; dan **tidak menyebarkan informasi yang tidak dapat dibuktikan kebenarannya** yang menimbulkan kebencian atau permusuhan.
 
 **Pelayanan** bertema *melayani orang*: peduli, ramah, santun; berorientasi pada kesejahteraan masyarakat; tepat waktu, cepat, transparan; melayani sesuai kompetensi dan bekerja sama bila ada masalah; **menerima pihak lain yang tidak terkait pekerjaan di luar jam kerja, atau pada jam kerja dengan seizin atasan** dan sepanjang tidak mengganggu layanan; serta tidak membeda-bedakan.
 
@@ -429,12 +429,14 @@ PMK 190/2018 membangun kode etik di atas kelima nilai tersebut. Cara efektif men
 
 ## Mencegah lebih baik daripada menghukum
 PMK 190/2018 juga mengatur pencegahan. Seluruh pimpinan unit Eselon I wajib melakukan upaya berikut:
-::: hafal Upaya Pencegahan oleh Pimpinan Eselon I
+::: hafal Upaya Pencegahan oleh Pimpinan Unit Eselon I
 1. Memberdayakan Unit Kepatuhan Internal (UKI)
-2. Berkoordinasi dengan Inspektorat Jenderal dalam pengawasan internal
-3. Berkoordinasi dengan penyelenggara diklat dan pembina kepegawaian; menginternalisasi Nilai Kemenkeu & ketentuan penegakan kode etik
-4. Atasan langsung memberi keteladanan, melakukan pengawasan, dan membina bawahan
+2. Berkoordinasi dengan Inspektorat Jenderal dalam melaksanakan pengawasan internal
+3. Membangun koordinasi dengan penyelenggara diklat serta pembina kepegawaian dalam mengupayakan pemahaman kode etik dan kode perilaku
+4. Menginternalisasi Nilai-Nilai Kemenkeu dan ketentuan penegakan kode etik kepada pegawai di lingkungan kerjanya
 :::
+
+Di level yang lebih dekat dengan pegawai, **atasan langsung** juga diminta mengupayakan pemahaman dan penegakan kode etik dengan **memberi keteladanan, melakukan pengawasan, dan membina bawahannya**.
 
 ## SE-12/MK.01/2018: kode etik sebagai alarm dini
 SE ini menjadikan **Nilai-Nilai Kemenkeu dan kode etik sebagai *Early Warning System***. Gagasannya: pelanggaran disiplin dan pelanggaran hukum biasanya didahului pelanggaran etika kecil. Jika etika ditegakkan sejak dini, pelanggaran yang lebih berat bisa dicegah.

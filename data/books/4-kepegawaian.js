@@ -588,20 +588,33 @@ Jika pangkatnya sama, dibandingkan ukuran berikutnya, dan begitu seterusnya:
 ## Penilaian kinerja
 Penilaian kinerja PNS kini berdasarkan **PP 30/2019** yang mencabut PP 46/2011. Penilaian dapat mempertimbangkan pendapat **rekan kerja setingkat dan bawahan** (**Pasal 37 ayat 3**). Kemenkeu menerapkannya melalui **penilaian 360 derajat** (atasan, bawahan, rekan) dan sanksi administratif sesuai **PP 94/2021**.
 
-Pedoman internalnya adalah **KMK 300/KMK.01/2022 tentang Manajemen Kinerja**, berlaku **28 Juli 2022** (KMK 467/KMK.01/2014 dinyatakan tetap berlaku sepanjang belum diganti). Penilaian kinerja mencakup **kinerja organisasi** dan **kinerja pegawai**.
+Pedoman internalnya kini adalah **KMK Nomor 127/KMK/2026 tentang Manajemen Kinerja di Lingkungan Kementerian Keuangan**, yang **mulai berlaku sejak 19 Mei 2026** sebagai tindak lanjut PP 30/2019. Penilaian kinerja tetap meliputi **kinerja organisasi** dan **kinerja pegawai**, tetapi cara mengukur kinerja pegawai berubah cukup banyak dibanding aturan sebelumnya.
 
 ::: flash
-CKP || **Capaian Kinerja Pegawai**: capaian **IKU pada Kontrak Kinerja**.
-NP || **Nilai Perilaku**: 6 aspek, yaitu **orientasi pelayanan, integritas, komitmen, disiplin, kerja sama, kepemimpinan**.
-NKP || **Nilai Kinerja Pegawai** = **CKP + NP** setelah **pembobotan**.
-Periode penilaian perilaku || **Semester I: 1 Januari – 30 Juni** · **Semester II: 1 Juli – 31 Desember**.
-Kenaikan/penurunan jabatan dan peringkat || Diatur **PMK 200/PMK.01/2022**.
+Dasar terbaru || **KMK 127/KMK/2026**, berlaku **19 Mei 2026** (menggantikan pengaturan lama yang memakai CKP–NP–NKP).
+Yang dinilai || **Sasaran Kinerja Pegawai (SKP)**, terdiri atas **Hasil Kerja** (tertuang dalam **Indikator Kinerja Individu/IKI**) dan **Perilaku Kerja**.
+Periode || Penilaian berlaku **selama 1 tahun**, lalu **dibagi menjadi periode pendek triwulanan**.
+Kenaikan/penurunan jabatan dan peringkat || Rekomendasinya berdasarkan **PMK 200/PMK.01/2022**.
 :::
 
-> [!tips] Ingat rumusnya: **apa yang dicapai** (CKP, dari IKU) + **bagaimana berperilaku** (NP, 6 aspek) = **NKP**.
+Selain capaian SKP, KMK 127/KMK/2026 menyempurnakan penilaian dengan memasukkan empat unsur baru. Setiap unsur punya "alasan keberadaan" yang khas, dan alasan itulah yang biasanya ditanyakan:
+
+::: hafal 4 Unsur Penyempurnaan Penilaian Kinerja (KMK 127/KMK/2026)
+1. Nilai Kinerja Organisasi (NKO) — bobot berbeda sesuai jenjang dan jenis jabatan, sebagai bentuk manajemen kolektif kinerja pegawai di unit
+2. Nilai Hukuman Disiplin — integrasi manajemen konsekuensi dan penguatan integritas
+3. Nilai Dampak Pelanggaran Disiplin — penguatan pembinaan oleh pimpinan sebagai atasan langsung
+4. Nilai Koreksi — penilaian objektif oleh Tim Penilaian Kinerja (TPK) berupa penambahan/pengurangan nilai
+:::
+
+> [!ingat] **Nilai Koreksi** dari **TPK** dapat menambah atau mengurangi nilai atas **kontribusi luar biasa dan strategis, prestasi istimewa, konsistensi rela berkorban untuk organisasi**, dan **kinerja yang lebih tinggi dibanding pegawai lain pada jenjang yang sama**.
+
+> [!kasus] Seorang pelaksana capaian IKI-nya tinggi, tetapi tahun itu ia dijatuhi hukuman disiplin. Dalam skema baru, hukuman itu ikut masuk penilaian lewat **Nilai Hukuman Disiplin**. Atasannya pun ikut terdampak melalui **Nilai Dampak Pelanggaran Disiplin**, karena pembinaan bawahan adalah tanggung jawab atasan langsung.
+
+> [!tips] Ingat rumus barunya: **SKP (Hasil Kerja/IKI + Perilaku Kerja)**, dinilai tahunan **per triwulan**, ditambah **NKO, Nilai Hukuman Disiplin, Nilai Dampak Pelanggaran Disiplin, dan Nilai Koreksi TPK**.
 
 ## Penggajian dan penghargaan
-- Selain gaji, PNS menerima **tunjangan kinerja dan tunjangan kemahalan**; di Kemenkeu tunjangan kinerja dibayar **sesuai pencapaian kinerja**.
+- Selain gaji, PNS menerima **tunjangan dan fasilitas sesuai UU 20/2023 tentang ASN**; di Kemenkeu tunjangan dibayarkan **sesuai pencapaian kinerja** masing-masing.
+- PNS yang menunjukkan kesetiaan, pengabdian, kecakapan, kejujuran, kedisiplinan, dan prestasi kerja dapat diberi penghargaan. Sesuai **UU 20/2023**, komponen penghargaan dapat berupa **penghasilan, penghargaan bersifat motivasi, tunjangan dan fasilitas, jaminan sosial, lingkungan kerja, pengembangan diri, dan bantuan hukum**.
 - **Tanda kehormatan** diatur **PP 35/2010** (pelaksanaan **UU 20/2009** tentang Gelar, Tanda Jasa, dan Tanda Kehormatan), diberikan **Presiden** atas darmabakti dan kesetiaan yang luar biasa.
 - **Kenaikan pangkat istimewa** diberikan berdasarkan **penilaian kinerja dan keahlian yang luar biasa**.
 - **Kesempatan tambahan pengembangan kompetensi** diberikan kepada pegawai dengan kinerja sangat baik, dedikasi, dan loyalitas tinggi.
@@ -618,7 +631,7 @@ Kemenkeu juga memiliki penghargaan sendiri:
 ## Rangkuman
 - 4 jenis kenaikan pangkat: **reguler** (min. 4 tahun, tidak melampaui atasan), **pilihan** (jabatan/prestasi/ijazah), **pengabdian** (30-20-10 ↔ 1 bln-1 th-2 th), **anumerta** (berlaku sejak tanggal tewas).
 - DUK: **P-J-M-L-P-U**, tidak boleh nomor sama.
-- **PP 30/2019**, penilaian 360°, **KMK 300/2022**; NKP = **CKP + NP**; semester Jan–Jun & Jul–Des.
+- **PP 30/2019**, penilaian 360°, **KMK 127/KMK/2026** (berlaku 19 Mei 2026): SKP = Hasil Kerja (IKI) + Perilaku Kerja, periode triwulanan, plus NKO, Nilai Hukuman Disiplin, Nilai Dampak Pelanggaran Disiplin, Nilai Koreksi TPK.
 - Penghargaan Kemenkeu: **KMK 325/2022** (Nagara Dana Rakca, Ksatria, Abyakta, Tingkat Nasional, Abisatya).
 `
 },
@@ -701,7 +714,14 @@ Tidak dapat diajukan upaya administratif || Antara lain hukuman yang dijatuhkan 
 :::
 
 ## Perlindungan pegawai
-Di sisi lain, Pemerintah wajib memberikan perlindungan berupa **jaminan kesehatan, jaminan kecelakaan kerja, jaminan kematian, dan bantuan hukum**. Di Kemenkeu wujudnya antara lain **BPJS**, **tunjangan risiko** di beberapa unit, **uang duka tewas/wafat**, dan **pendampingan Bantuan Hukum**.
+Menurut **UU 20/2023 tentang ASN**, **jaminan pensiun dan jaminan hari tua** diberikan sebagai **perlindungan kesinambungan penghasilan hari tua**, sebagai **hak**, dan sebagai **penghargaan atas pengabdian**.
+
+Di Kemenkeu, perlindungan diwujudkan dalam empat bentuk:
+|Perlindungan|Wujud di Kemenkeu|
+|Jaminan kesehatan|**BPJS**|
+|Jaminan kecelakaan kerja|**Tunjangan risiko** di beberapa unit|
+|Jaminan kematian|**Uang duka tewas** dan **uang duka wafat**|
+|Bantuan hukum|**Pendampingan oleh Bankum** secara institusi|
 
 ## Rangkuman
 - Disiplin = **kesanggupan** menaati kewajiban & menghindari larangan; berlaku di dalam & luar jam kerja; juga untuk CPNS.
@@ -718,7 +738,7 @@ md: `
 ## Cuti adalah hak, dengan aturannya
 Bekerja terus-menerus tanpa jeda justru menurunkan kinerja. Karena itu negara mengatur cuti sebagai hak, dengan tujuan **menjamin kesegaran jasmani dan rohani** pegawai.
 
-- Dasar hukumnya: **PP 11/2017 sebagaimana diubah PP 17/2020**, **Peraturan BKN 24/2017**, **SE-15/MK.1/2018** (cuti PNS Kemenkeu), dan **SE-4/MK.1/2019** (cuti secara online).
+- Dasar hukumnya: **PP 11/2017 sebagaimana diubah PP 17/2020**, **Peraturan Kepala BKN 24/2017** sebagaimana diubah **Peraturan Kepala BKN 7/2021**, **SE-15/MK.1/2018** (cuti PNS Kemenkeu), dan **SE-4/MK.1/2019** (cuti secara online).
 - **Cuti** adalah keadaan **tidak masuk kerja yang diizinkan** dalam jangka waktu tertentu.
 
 ::: hafal Jenis Cuti PNS

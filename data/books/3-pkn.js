@@ -15,7 +15,7 @@ id: "pengertian-kn",
 title: "Pengertian & Bidang Keuangan Negara",
 md: `
 ## Uang rakyat, dikelola negara
-Bayangkan sebuah rumah tangga besar bernama Indonesia. Ada uang yang masuk dari pajak dan sumber lain, ada uang yang keluar untuk membangun jalan, menggaji guru, dan membantu warga miskin, dan ketika uang yang keluar lebih besar dari yang masuk, harus ada cara menutup kekurangannya. Ketiga hal inilah inti **Pengelolaan Keuangan Negara**: pengelolaan oleh Pemerintah atas **pendapatan negara** (dari pajak dan bukan pajak), **belanja negara** (yang hakikatnya dilakukan untuk **menyejahterakan masyarakat**), dan **sumber keuangan untuk menutup kekurangan** yang mungkin timbul, baik dari utang maupun sumber lain.
+Bayangkan sebuah rumah tangga besar bernama Indonesia. Ada uang yang masuk dari pajak dan sumber lain, ada uang yang keluar untuk membangun jalan, menggaji guru, dan membantu warga miskin, dan ketika uang yang keluar lebih besar dari yang masuk, harus ada cara menutup kekurangannya. Ketiga hal inilah inti **Pengelolaan Keuangan Negara**: pengelolaan oleh Pemerintah atas **pendapatan negara** (dari pajak, bukan pajak, dan hibah), **belanja negara** (yang hakikatnya dilakukan untuk **menyejahterakan masyarakat**), dan **sumber keuangan untuk menutup kekurangan** yang mungkin timbul, baik dari utang maupun sumber lain.
 
 Rumah tangga negara berbeda dengan rumah tangga keluarga karena kewenangan Pemerintah **dibatasi peraturan perundangan**. Ada **persetujuan dan pengawasan oleh legislatif**, dan pertanggungjawabannya harus sesuai koridor peraturan, transparan, dan akuntabel.
 
@@ -353,7 +353,7 @@ Pelaksanaan diawali dengan **pengesahan DIPA oleh Menteri Keuangan**. DIPA disam
 Menurut **Pasal 17 UU Perbendaharaan Negara**, PA/KPA melaksanakan kegiatan dalam DIPA dan berwenang mengadakan **ikatan/perjanjian dengan pihak lain dalam batas anggaran**. Tata caranya diatur **PP 45/2013** dan perubahannya **PP 50/2018**.
 
 ### Pelaporan dan pencatatan
-Bersamaan dengan pelaksanaan, K/L dan BUN mencatat dan melapor sesuai **Standar Akuntansi Pemerintahan (SAP)**, menghasilkan **LKPP** yang terdiri atas **LRA, Neraca, LAK, dan CaLK**, disusun **Menteri Keuangan** selaku pengelola fiskal dan disampaikan kepada **Presiden**. Hasil pelaporan menjadi bahan menyusun APBN tahun berikutnya.
+Bersamaan dengan pelaksanaan, K/L dan BUN mencatat dan melapor sesuai **Standar Akuntansi Pemerintahan (SAP)**, menghasilkan **LKPP** yang terdiri atas **LRA, LPSAL, Neraca, LO, LAK, LPE, dan CaLK**, disusun **Menteri Keuangan** selaku pengelola fiskal dan disampaikan kepada **Presiden**. Hasil pelaporan menjadi bahan menyusun APBN tahun berikutnya.
 
 ### Pemeriksaan dan pertanggungjawaban
 **BPK memeriksa LKPP**; LKPP yang sudah diaudit disampaikan Presiden kepada DPR dalam bentuk **RUU Pertanggungjawaban Pelaksanaan APBN** untuk dibahas dan disetujui. Selama pelaksanaan, pengawasan juga dilakukan **atasan langsung** pengelola keuangan dan **APIP** masing-masing K/L.
