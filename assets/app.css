@@ -651,3 +651,10 @@ input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none;appea
 .hexam > span{max-width:100%}
 .md{overflow-wrap:break-word}
 @media (max-width:560px){.reg{white-space:normal;overflow-wrap:anywhere}.tbl table{min-width:0;font-size:.84rem}.tbl th,.tbl td{padding:8px 9px;overflow-wrap:anywhere}.tbl th{white-space:normal}}
+/* HP: di beranda, daftar materi tampil sebelum panel latihan soal */
+@media (max-width:760px){
+  .hero3{display:flex;flex-direction:column;gap:0}
+  .hero3 > div:first-child{display:contents}
+  .hero3 .modlist{order:1;margin-top:18px}
+  .hero3 .drillband{order:2;margin-top:18px}
+}
